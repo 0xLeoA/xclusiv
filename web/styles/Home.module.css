@@ -1,0 +1,630 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+
+.topheader {
+  background-color: rgb(50, 50, 51);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: solid; 
+  border-width: 0 0 0.35rem 0;
+  padding: 0.5rem 0rem 0rem 0rem;
+  margin-bottom: 1rem;
+  color: rgb(228, 228, 235);
+}
+
+.container {
+  background-color: rgb(50, 50, 51);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 0.5rem;
+}
+
+.tutorialimagesize{
+  max-width: 25rem;
+  max-height: 20rem;
+  margin-top: 2rem;
+}
+
+.maintexttheme {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.xclusivtextheader {
+  color:  rgb(228, 228, 235);
+  font-size: 3.5rem;
+  font-family: 'Kanit', sans-serif;
+  
+}
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.xclusivdescription {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.connectbuttondiv {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.actiondescriptionheader {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.setuptutorialdiv {
+  margin-top: 2rem;
+  display: flex; 
+  flex-direction: column;
+  width: 90vw;
+
+}
+
+.setupinthreestepsheader {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.5rem;
+}
+
+.tutorialimagesdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.tutorialimagediv {
+  display: flex;
+  flex-direction: column;
+}
+
+.setupstepsheadertext {
+  color: rgb(212, 212, 217);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5rem;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.setupheadersdiv {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.setupstepdescriptiontext {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2rem;
+}
+
+.xyzjizz {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.sendpaymentbutton {
+  color: rgb(50, 50, 51);
+  background-color: rgb(228, 228, 235);
+  border-style: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.sendpaymentbutton:hover {
+  opacity: 0.8;
+}
+
+.sendpaymentbutton:active {
+  opacity: 0.6;
+}
+
+.approvebutton {
+  color: rgb(50, 50, 51);
+  background-color: rgb(228, 228, 235);
+  border-style: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.approvebutton:hover {
+  opacity: 0.8;
+}
+
+.approvebutton:active {
+  opacity: 0.6;
+}
+
+.mintxcvbutton {
+  margin: 0 0 1rem 1rem;
+  color: rgb(50, 50, 51);
+  background-color: rgb(228, 228, 235);
+  border-style: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.buttontextspan {
+  margin-left: 0.5rem;
+}
+
+.completepaymentbuttondiv {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.flexcolumn {
+  display: flex; 
+  flex-direction: column;
+}
+
+.sufficientbalancetext {
+  color: rgb(178, 217, 181);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.3rem;
+}
+
+.balancediv {
+  margin-bottom: 0.5rem;
+}
+
+.nftscontainer {
+  display: flex; 
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nftimagecontainer {
+  color: rgb(228, 228, 235);
+  width: 11rem; 
+  height: 11rem;
+  align-items: center; 
+  justify-content: center;
+  display: flex;
+}
+
+.imgsize {
+  max-width: 9rem;
+  max-height: 9rem;
+  border-radius: 0.2rem;
+}
+
+.nftcontainer {
+  border-style: solid; 
+  border-width: 0.4rem;
+  color: rgb(228, 228, 235);
+  border-color: rgb(228, 228, 235);
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  padding: 0.5rem 0rem 0rem 0rem;
+  display: flex; 
+  flex-direction: column;
+  background-color: rgb(101, 101, 102);
+}
+
+.nftborderline {
+  color: rgb(228, 228, 235);
+  border-style: solid;
+}
+.nftnametext {
+  color: rgb(228, 228, 235);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  padding: 0.25rem 0 0.25rem 0;
+  background-color: rgb(101, 101, 102);
+}
+
+.nftnametextdiv {
+  display: flex;
+  flexpdirection: row; 
+  justify-content: center;
+  margin-top: 0.1rem;
+  padding-bottom: 0.2rem;
+  border-style: solid; 
+  border-width: 0 0 0.25rem 0;
+  border-color: rgb(228, 228, 235);
+}
+
+.nftbutton {
+  background-color: rgb(101, 101, 102);
+  font-family: 'Kanit', sans-serif;
+  border-style: none;
+  border-color: rgb(210, 210, 212);
+  color: rgb(228, 228, 235);
+  font-size: 1rem;
+  padding: 0.7rem 0 0.7rem 0;
+  border-radius: 0 0rem 0.3rem 0.3rem;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.buttontextspannft {
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.nftbutton:hover {
+  opacity: 0.95;
+}
+
+.nftbutton:active {
+  opacity: 0.9;
+}
+
+.verifybuttondiv {
+  margin-top: 0.5rem;
+}
+
+.verifybutton {
+  color: rgb(50, 50, 51);
+  background-color: rgb(228, 228, 235);
+  border-style: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-family: 'Kanit', sans-serif;
+  font-size: 1rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.premiumnamecolor {
+  color: rgb(228, 228, 235);
+}
+
+.verifybutton:active {
+  opacity: 0.6;
+}
+
+.verifybutton:hover {
+  opacity: 0.8;
+}
+
+.errortext {
+  color: rgb(247, 131, 116);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.3rem;
+}
+
+.mintxcvbutton:hover {
+  opacity: 0.8;
+}
+
+.mintxcvbutton:active {
+  opacity: 0.6;
+}
+
+.verificationitemscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.verifcomplete {
+  color: rgb(178, 217, 181);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.2rem;
+  transition-duration: 0.15s;
+}
+
+.verifcomplete:hover {
+  opacity: 0.8;
+}
+.verifcomplete:active {
+  opacity: 0.5;
+}
+
+
+.tginvitelink {
+  color: rgb(178, 217, 181);
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.3rem;
+}
+
+.verifcompletepadding {
+  margin-left: 1rem;
+}
+
+.idkwhattocallthis {
+  margin-top: 0.5rem;
+}
+
+.verifcompletediv {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemscontainer {
+  background-color: rgb(50, 50, 51);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding-top: 0.5rem;
+}
+
+.topheadertextdiv{
+  display: flex; 
+  flex-direction: column;
+}
+.toptextleft {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.toptextverify {
+  font-family: Arial;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.toptextverifytop {
+  font-family: Arial;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.staketgdescription {
+  font-family: Arial;
+  font-weight: bold; 
+  color: rgb(56, 59, 57);
+  font-size: 1rem;
+}
+
+.connectbuttondiv {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 0.3rem;
+}
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(var(--callout-rgb), 0.5);
+  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+  border-radius: var(--border-radius);
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(25%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
+.card {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.card span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.card h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
+}
+
+.center::before {
+  background: var(--secondary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+}
+
+.center::after {
+  background: var(--primary-glow);
+  width: 240px;
+  height: 180px;
+  z-index: -1;
+}
+
+.center::before,
+.center::after {
+  content: '';
+  left: 50%;
+  position: absolute;
+  filter: blur(45px);
+  transform: translateZ(0);
+}
+
+.logo {
+  position: relative;
+}
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .content {
+    padding: 4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 320px;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 2.5rem;
+  }
+
+  .card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .center {
+    padding: 8rem 0 6rem;
+  }
+
+  .center::before {
+    transform: none;
+    height: 300px;
+  }
+
+  .description {
+    font-size: 0.8rem;
+  }
+
+  .description a {
+    padding: 1rem;
+  }
+
+  .description p,
+  .description div {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+  }
+
+  .description p {
+    align-items: center;
+    inset: 0 0 auto;
+    padding: 2rem 1rem 1.4rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+    background: linear-gradient(
+      to bottom,
+      rgba(var(--background-start-rgb), 1),
+      rgba(var(--callout-rgb), 0.5)
+    );
+    background-clip: padding-box;
+    backdrop-filter: blur(24px);
+  }
+
+  .description div {
+    align-items: flex-end;
+    pointer-events: none;
+    inset: auto 0 0;
+    padding: 2rem;
+    height: 200px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgb(var(--background-end-rgb)) 40%
+    );
+    z-index: 1;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .vercelLogo {
+    filter: invert(1);
+  }
+
+  .logo {
+    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

@@ -1,0 +1,301 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "uint16",
+                "name": "_srcChainId",
+                "type": "uint16"
+            },
+            {
+                "internalType": "bytes",
+                "name": "_srcAddress",
+                "type": "bytes"
+            },
+            {
+                "internalType": "uint64",
+                "name": "_nonce",
+                "type": "uint64"
+            },
+            {
+                "internalType": "bytes",
+                "name": "_payload",
+                "type": "bytes"
+            }
+        ],
+        "name": "lzReceive",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "usdAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "receiverAddress",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "destinationAddress",
+                "type": "address"
+            },
+            {
+                "internalType": "uint16",
+                "name": "destChainId",
+                "type": "uint16"
+            }
+        ],
+        "name": "send",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "bool",
+                "name": "isNFT",
+                "type": "bool"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenAmountOrNFTId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "contractAddress",
+                "type": "address"
+            }
+        ],
+        "name": "stake",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "_lzEndpoint",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "_usdcToken",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "_from",
+                "type": "address"
+            },
+            {
+                "indexed": true,
+                "internalType": "enum XClusiv.StakeType",
+                "name": "_stakeType",
+                "type": "uint8"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "_tokenAmountOrNFTId",
+                "type": "uint256"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "contractAddress",
+                "type": "address"
+            }
+        ],
+        "name": "StakeComplete",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "stakeId",
+                "type": "uint256"
+            }
+        ],
+        "name": "unstake",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": true,
+                "internalType": "uint256",
+                "name": "_stakeId",
+                "type": "uint256"
+            },
+            {
+                "indexed": true,
+                "internalType": "enum XClusiv.StakeType",
+                "name": "_stakeType",
+                "type": "uint8"
+            },
+            {
+                "indexed": true,
+                "internalType": "address",
+                "name": "_staker",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "address",
+                "name": "_contractAddress",
+                "type": "address"
+            },
+            {
+                "indexed": false,
+                "internalType": "uint256",
+                "name": "_tokenAmountOrNFTId",
+                "type": "uint256"
+            }
+        ],
+        "name": "UnstakeComplete",
+        "type": "event"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "addressToStakeIds",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "data",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint16",
+                "name": "_dstChainId",
+                "type": "uint16"
+            },
+            {
+                "internalType": "address",
+                "name": "_userApplication",
+                "type": "address"
+            },
+            {
+                "internalType": "uint256",
+                "name": "usdAmount",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "merchantAddress",
+                "type": "address"
+            }
+        ],
+        "name": "estimateFees",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "latestStakeId",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "name": "stakeIdToStakes",
+        "outputs": [
+            {
+                "internalType": "enum XClusiv.StakeType",
+                "name": "stakeType",
+                "type": "uint8"
+            },
+            {
+                "internalType": "uint256",
+                "name": "tokenAmountOrNFTId",
+                "type": "uint256"
+            },
+            {
+                "internalType": "address",
+                "name": "contractAddress",
+                "type": "address"
+            },
+            {
+                "internalType": "address",
+                "name": "staker",
+                "type": "address"
+            },
+            {
+                "internalType": "enum XClusiv.StakeWithdrawn",
+                "name": "stakeWithdrawn",
+                "type": "uint8"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

@@ -1,0 +1,73 @@
+{
+    "5": {
+        "lz_chainid": 10121,
+        "lz_endpoint": "0xbfD2135BFfbb0B5378b56643c2Df8a87552Bfa23",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0x07480bc4aF20E2E5495AD0A9DCCAedcd607dc307",
+        "name": "Goerli"
+    },
+    "1442": {
+        "lz_chainid": 10158,
+        "lz_endpoint": "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0xC578F73C51a2a1e94DE3B8945adE46Bd5e260450",
+        "name": "Polygon ZkEVM"
+    },
+    "59140": {
+        "lz_chainid": 10157,
+        "lz_endpoint": "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab",
+        "USDC": "0xEB289613A7a9ab12BAfCcb9Df27Df3e8A9e89Af3",
+        "contract": "0xC578F73C51a2a1e94DE3B8945adE46Bd5e260450",
+        "name": "Linea"
+    },
+    "245022926": {
+        "name": "Neon EVM",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0x7EA06B06FcDa1695250b1273e14d1376aFff7620"
+    },
+    "10200": {
+        "lz_chainid": 10145,
+        "lz_endpoint": "0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0xC578F73C51a2a1e94DE3B8945adE46Bd5e260450",
+        "name": "Gnosis"
+    },
+    "534351": {
+        "name": "Scroll",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0xD4420467A518B8A1c654379BB6D31E05dC8B2d4c"
+    },
+    "44787": {
+        "name": "Celo",
+        "lz_chainid": 10125,
+        "lz_endpoint": "0xae92d5aD7583AD66E49A0c67BAd18F6ba52dDDc1",
+        "contract": "0xC578F73C51a2a1e94DE3B8945adE46Bd5e260450",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917"
+    },
+    "5001": {
+        "name": "Mantle",
+        "lz_chainid": 10181,
+        "lz_endpoint": "0x2cA20802fd1Fd9649bA8Aa7E50F0C82b479f35fe",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0x923Ba574bEBa1163607cDf72Bc559C87BB81b2Eb"
+    },
+    "421613": {
+        "name": "Arbitrum",
+        "lz_chainid": 10143,
+        "lz_endpoint": "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0xFAfdC3d609F43C5f7f6206eC38012c0eCC58BF63"
+    },
+    "84531": {
+        "name": "Base",
+        "lz_chainid": 10160,
+        "lz_endpoint": "0x6aB5Ae6822647046626e83ee6dB8187151E1d5ab",
+        "USDC": "0xEB289613A7a9ab12BAfCcb9Df27Df3e8A9e89Af3",
+        "contract": "0x923Ba574bEBa1163607cDf72Bc559C87BB81b2Eb"
+    },
+    "51": {
+        "name": "XCD",
+        "USDC": "0x0cf57e12b489dDC02a5d24a81eE359844A398917",
+        "contract": "0xEB289613A7a9ab12BAfCcb9Df27Df3e8A9e89Af3"
+    }
+}
